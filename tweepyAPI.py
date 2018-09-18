@@ -66,13 +66,13 @@ if __name__ == '__main__':
     get_all_tweets("@realDonaldTrump")
     #save the image from the URLs in json
     image1=io.imread('http://pbs.twimg.com/ext_tw_video_thumb/1041792175556763648/pu/img/ULdtURmfcW4UeTeh.jpg')
-    io.imsave('/Users/joe/Downloads/img/1.jpg',image1)
+    io.imsave('/Users/joe/Downloads/img/0.jpg',image1)
     image2=io.imread('http://pbs.twimg.com/media/DnUN4tmX0AESUdj.jpg')
-    io.imsave('/Users/joe/Downloads/img/2.jpg',image2)
+    io.imsave('/Users/joe/Downloads/img/1.jpg',image2)
     image3=io.imread('http://pbs.twimg.com/media/DnLtwQfWsAAlO-7.jpg')
-    io.imsave('/Users/joe/Downloads/img/3.jpg',image3)
+    io.imsave('/Users/joe/Downloads/img/2.jpg',image3)
     image4=io.imread('http://abs.twimg.com/images/themes/theme1/bg.png')
-    io.imsave('/Users/joe/Downloads/img/4.jpg',image4)
+    io.imsave('/Users/joe/Downloads/img/3.jpg',image4)
     image5=io.imread('https://abs.twimg.com/images/themes/theme2/bg.gif')
-    io.imsave('/Users/joe/Downloads/img/5.jpg',image5)
+    io.imsave('/Users/joe/Downloads/img/4.jpg',image5)
     
