@@ -1,1 +1,1 @@
-# EC601-Project
+# EC601-miniProject
