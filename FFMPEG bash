@@ -1,1 +1,0 @@
-ffmpeg -f image2 -r 1/5 -i /Users/joe/Desktop/BU_2018_fall/EC601/images/%02d.jpg -vcodec libx264 -pix_fmt yuv420p out.mp4
