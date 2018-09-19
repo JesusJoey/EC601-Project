@@ -11,7 +11,7 @@
 ### Using Google Vision API to describe the contents
 * To get credentials for Google Vision API, please input the following in the command line:  
 *export GOOGLE_APPLICATION_CREDENTIALS="My_First_Project-8e0370d1243f.json"*  
-* Using the API to describe the contents: in the command line,input:  
+* For using the API to describe the contents, you need to input the following in the command line: 
 *python google_vision.py*
 
 ## Statements
