@@ -2,7 +2,7 @@
 ## How to run this mini project
 ### Using tweepyAPI to download images
 * In the tweepy python script, you need to input your consumer_key, consumer_secret, access_key, access_secret of your Twitter Development Account to get credentials.
-* When you run python_hw1.py, input *python tweepy_hw1.py --username kobebryant --num 100 --folder images* ,then you can download 100 pictures from KobeBryant's twitter into the folder named images.
+* When you run tweepy_hw1.py, input *python tweepy_hw1.py --username kobebryant --num 100 --folder images* ,then you can download 100 pictures from KobeBryant's twitter into the folder named images.
 
 ### Using FFMPEG to convert images into a video
 * In the command line,input: *ffmpeg -f image2 -r 1/5 -i /Users/joe/Desktop/BU_2018_fall/EC601/images/%02d.jpg -vcodec libx264 -pix_fmt yuv420p out.mp4*
