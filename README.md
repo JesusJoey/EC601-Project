@@ -1,4 +1,4 @@
-# EC601-miniProject
+# EC601-miniProject1
 ## How to run this mini project
 ### Using tweepyAPI to download images
 * In the tweepy python script, you need to input your consumer_key, consumer_secret, access_key, access_secret of your Twitter Development Account to get credentials.
