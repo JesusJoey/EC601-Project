@@ -11,8 +11,8 @@ var imgPath='/Users/joe/Desktop/images/1.jpg';
 
 mongoose.connect('mongodb://<dbuser>:<dbpassword>@ds153352.mlab.com:53352/ec601_database', {
   auth: {
-    user:'joey',
-    password:'joeyang@1229'
+    user:'',
+    password:''
   },
   useNewUrlParser:true
 }, function(err, client) {
