@@ -16,7 +16,7 @@ from PIL import Image, ImageDraw, ImageFont
 import pymysql
 import pymongo
 from datetime import datetime
-password="qiaoyang"
+password=""
 
 from google.cloud import vision
 from google.cloud.vision import types
@@ -24,10 +24,10 @@ from google.cloud.vision import types
 client = vision.ImageAnnotatorClient()
 
 #Twitter API credentials
-consumer_key = "YaHG1WVffVICbhT0Zyi65VKsE"
-consumer_secret = "256c1pO658imTmcHzbKFlOe1ZT7r1pfvuaFLWiBwaqMeNqKUv5"
-access_key = "1039159247630753792-Yr53oPgqfOpZyfXL4aeqZqANZm25Nb"
-access_secret = "ve4FG58q1n7plXNFg6fQCDgN3Zz67l7Ug09N1Cnf5ZwR1"
+consumer_key = ""
+consumer_secret = ""
+access_key = ""
+access_secret = ""
 
 #connect to mysql
 try:
