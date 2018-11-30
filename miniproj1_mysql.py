@@ -149,28 +149,3 @@ dirs.sort()
 
 for filesDir in dirs:
     labelPics(filesDir)
-'''
-dirs=os.listdir("./labeledImgs/")
-for filename in dirs:
-    img = Image.open('./labeledImgs/'+filename)
-    w,h = img.size
-    if w%2 ==1:
-        w=w-1
-    if h%2 ==1:
-        h=h-1
-    img = img.resize((w,h))
-    img.save('./labeledImgs/'+filename)
-'''
-
-#mysql user info
-cursor = db.cursor()
-sql = """INSERT INTO user(twt_id,log) VALUES (%s, %s)"""
-try:
-    cursor.execute(sql,(username, picLog))
-    db.commit()
-except:
-    db.rollback()
-
-print("Data stored into Database!")
-
-db.close()
