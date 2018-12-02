@@ -40,10 +40,10 @@ def statistics():
 	except Exception as e:
 		print("Error: unable to fetch data")
 		raise e
-    print("\n Number of labels:")
-    print(data1)
-    print("\nMost 10 popular descriptions:")
-    print(data2)
+ 	print("\n Number of labels:")
+   	print(data1)
+    	print("\nMost 10 popular descriptions:")
+    	print(data2)
 
     
 
